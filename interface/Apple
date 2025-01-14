@@ -1,0 +1,18 @@
+
+interface Fruit
+{
+   void meth();
+}
+
+class Apple implements Fruit
+{
+public void meth()
+	{
+	      System.out.println("inside meth");
+	}
+public static void main(String args[])
+	{
+	    Apple	ob =new Apple();
+		ob.meth();
+	}
+}

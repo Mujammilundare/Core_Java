@@ -1,0 +1,22 @@
+
+interface Fruit
+{
+   void taste();
+}
+
+
+class Apple implements Fruit
+{
+public void taste()
+	{
+	      System.out.println(" apple a sweet...");
+	}
+
+
+
+public static void main(String args[])
+	{
+	    Apple	ob =new Apple();
+		ob.taste();
+	}
+}
