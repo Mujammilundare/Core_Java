@@ -1,0 +1,36 @@
+import java.awt.*;
+import javax.swing.*;
+   public class Demo2 {
+      public static void main(String[] args) {
+         Window win = new Window();
+      }
+}
+class Window extends JFrame {
+   public Window () {
+      super ("Window Title");
+      setSize(400,100);
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+      setVisible(true);
+     
+	  Container ca = getContentPane();
+      ca.setBackground(Color.lightGray);
+      
+	  GridBagLayout gblm = new GridBagLayout(); 
+      GridBagConstraints gbc = new GridBagConstraints(); 
+      ca.setLayout(gblm);
+      
+	  JButton bt1 = new JButton("Start Test 1");
+      gbc.gridx = 1;
+      gbc.gridy = 0;
+      
+	  ca.add(bt1,gbc);
+      
+	  JButton bt2 = new JButton("Start Test 2");
+      gbc.gridx = 1;
+      gbc.gridy = 1;
+      
+	  ca.add(bt2,gbc);
+      setContentPane(ca);
+   }
+}
+
