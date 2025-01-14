@@ -1,0 +1,15 @@
+class Test 
+{
+	public static void main(String[] args) 
+	{
+String  s=new String("God");
+System.out.println(s);
+
+StringBuffer  s=new StringBuffer("God");
+s.append("is");
+s.append("Great");
+System.out.println(s);
+
+	
+}
+}
