@@ -1,0 +1,7 @@
+static variables are not part of object state 
+and hence they won’t participate in serialization process 
+
+Declaring static variables as transient there is no impact similarly declaring final variables as transient creates no impact.
+
+
+If the parent class is Serializable bydefault all the child classes also Serializable. i.e Serializable nature is inherited from parent to child.

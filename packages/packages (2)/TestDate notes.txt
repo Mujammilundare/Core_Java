@@ -1,0 +1,8 @@
+Z:\>javac -d . MyDate.java
+
+Z:\>javac -d . TestDate.java
+
+Z:\>java net.TestDate
+Date is 23/7/2012
+
+Z:\>
