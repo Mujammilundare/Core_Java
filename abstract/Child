@@ -1,0 +1,17 @@
+abstract class Parent
+{
+  abstract  void meth(); // abstract method
+     void conc()  //concrete method as it has body
+	{
+		System.out.println("hi!");
+	}
+}
+
+class  Child 
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
