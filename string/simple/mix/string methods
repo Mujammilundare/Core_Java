@@ -1,0 +1,16 @@
+Commonly used Methods of String class:
+1)public boolean equals(Object anObject) Compares this string to the specified object. 
+2)public boolean equalsIgnoreCase(String another) Compares this String to another String, ignoring case. 
+3)public String concat(String str) Concatenates the specified string to the end of this string. 
+4)public int compareTo(String str) Compares two strings and returns int 
+5)public int compareToIgnoreCase(String str) Compares two strings, ignoring case differences. 
+6)public String substring(int beginIndex) Returns a new string that is a substring of this string. 
+7)public String substring(int beginIndex,int endIndex) Returns a new string that is a substring of this string. 
+8)public String toUpperCase() Converts all of the characters in this String to upper case 
+9)public String toLowerCase() Converts all of the characters in this String to lower case. 
+10)public String trim() Returns a copy of the string, with leading and trailing whitespace omitted. 
+11)public boolean startsWith(String prefix) Tests if this string starts with the specified prefix. 
+12)public boolean endsWith(String suffix) Tests if this string ends with the specified suffix. 
+13)public char charAt(int index) Returns the char value at the specified index. 
+14)public int length() Returns the length of this string. 
+15)public String intern() Returns a canonical representation for the string object 

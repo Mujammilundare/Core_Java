@@ -1,0 +1,12 @@
+Ensures that the StringBuffer’s initial capacity would be grater than or equal to the specified initial capacity.
+The new capacity of the StringBuffer is the maximum of,
+1) The initialCapacity argument passed and
+2) ( Old capacity * 2 ) + 2
+
+StringBuffer Constructors
+1) StringBuffer()
+Creates empty StringBuffer object having initial capacity of 16.
+2) StringBuffer(int capacity)
+Creates empty StringBuffer object having initial capacity specified.
+StringBuffer stringBuffer = new StringBuffer(50); 
+
