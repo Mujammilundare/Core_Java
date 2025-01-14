@@ -1,0 +1,20 @@
+@Target(ElementType.METHOD)
+public @interface Test_Target
+{
+	public String doTestTarget();
+}
+
+public class TestAnnotations 
+	{
+@Test_Target(doTestTarget="Hello World !")
+public void doTestTarget() 
+	{
+		System.out.printf("Testing Target annotation");
+	}
+public static void main(String arg[]) 
+	{
+			new TestAnnotations().doTestTarget();
+    }
+
+}
+
