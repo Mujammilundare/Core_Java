@@ -1,0 +1,5 @@
+The new input/output (NIO) library was introduced with JDK 1.4. Picking up where original I/O leaves off,
+NIO provides high-speed, block-oriented I/O in standard Java code.
+By defining classes to hold data, and by processing that data in blocks,
+NIO takes advantage of low-level optimizations in a way that the original I/O package could not, 
+without using native code
