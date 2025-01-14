@@ -1,0 +1,21 @@
+<html>
+<head>
+
+<!--java scipt function-->
+<script>
+	function toOtherFrame(a, target)
+	{
+		if(target == "f1")
+			parent.f1.document.app1.fromOtherFrame(a);
+		else
+			parent.f1.document.app2.fromOtherFrame(a);
+	}
+</script>
+</head>
+
+<body>
+	<applet code="InterFrameDemo.class" name="app1" MAYSCRIPT height= 200 width=200>
+		<param name="target" value="f2">
+	</applet>
+</body>
+</html>

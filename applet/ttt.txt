@@ -1,0 +1,6 @@
+import java.applet.*;
+import java.awt.*;
+sdfg
+//<applet code="AppletDemo.class" width="200" height="300"></applet>
+
+gdfdgdgsdfgsdfg

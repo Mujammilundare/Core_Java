@@ -1,0 +1,32 @@
+
+import java.applet.*;
+import java.awt.*;
+
+asdfasd
+fa
+sdfa
+sf
+asdf
+asdfa
+df
+<applet code="AppletDemo.class" width=250  height=250   ></applet>
+
+pasdf
+asdf
+asdf
+asdf
+asdf
+asdf
+asdf
+asdfasd
+f
+asdfasd
+fasd
+fasd
+fublic  class AppletDemo extends Applet
+ {	
+	 public void paint(Graphics g)
+	{
+		g.drawString("Hello God",100,200);
+	}
+}
